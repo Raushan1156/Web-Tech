@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <style>
+
+        .container{
+            max-width: 400px;
+            top: -80px;
+            margin-top: 80px;
+            margin : auto auto;
+            box-shadow: 0px 0px 43px 17px rgb(187, 245, 255);
+
+        }
+        .btn{ 
+            display: grid;
+            border: 1px solid rgb(0, 0, 0);
+            grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+
+        }
+
+        .btn>div{
+            border-top: 1px solid black;
+            border-right: 1px solid black;
+
+        }
+
+        .btn {
+            border: 0.5px solid #999;
+            line-height:90px;
+            text-align: center;
+            font-size: 25px;
+            cursor: pointer;
+            background-color: white;
+        }
+
+        #equal {
+            background-color: rgb(85, 85, 255);
+            color: white;
+        }
+        #sp{
+            text-align: right;
+            
+        }
+        <!-- .button:hover {
+            background-color: #0f0f3c;
+            font-weight: 800;
+            color: white;
+            transition: 0.2s ease-out;
+        } -->
+    </style>
+</head>
+<body>
+   <div class="container">
+       <div class="btn">
+       <div class="button">clear</div>
+       <div class="button">/</div>
+       <div class="button">*</div>
+       <div class="button">backspace</div>
+       <div class="button">9</div>
+       <div class="button">8</div>
+       <div class="button">7</div>
+       <div class="button">-</div>
+       <div class="button">6</div>
+       <div class="button">5</div>
+       <div class="button">4</div>
+       <div class="button">+</div>
+       <div class="button">3</div>
+       <div class="button">2</div>
+       <div class="button">1</div>
+       <div class="button">.</div>
+       <div class="button">(</div>
+       <div class="button">0</div>
+       <div class="button">)</div>
+       <div class="button" id="equal">=</div>
+    </div>
+   </div> 
+   <div id="rk">-By Raushan Kumar</div>
+</body>
+</html>
